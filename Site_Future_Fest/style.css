@@ -224,7 +224,8 @@ body {
     border-radius: 10px;
     text-align: center;
     background-color: rgb(216, 245, 186);
-    animation: dudu 3s ease-in-out;
+    animation: dudu 2s ease-in-out;
+    animation-delay: 1s;
 }
 .card img{
     border: 2px solid black;
@@ -242,6 +243,10 @@ body {
 .texto-inical-link2 h1 {
     width: 65%;
     font-size: 40px;
+}
+
+.parte-inicial-link2 {
+    margin-top: 40px;
 }
 
 .imagem-inicial-link2 img {
@@ -269,6 +274,7 @@ body {
     align-items: center;
     gap: 20px;
     margin-top: 40px;
+    margin-bottom: 40px;
   }
   
 .texto-Solucoes {
@@ -276,3 +282,88 @@ body {
     font-size: x-large;
 }
 
+.botao-voltar {
+    width: 60px;
+    margin-bottom: 40px;
+    padding: 25px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+  .texto-final-link2 h1 {
+    width: 65%;
+    font-size: 35px;
+}
+
+.texto-final-link2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.header-link3 {
+    background-color: #119c11;
+    height: 160px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.corpo-link3 {
+    display: flex;
+    align-items: center; /* Alinha o conteúdo verticalmente */
+    justify-content: space-between; /* Coloca espaço entre as imagens e o texto */
+    margin-bottom: 40px;
+  }
+  
+.texto-link3 {
+    text-align: center; /* Centraliza o texto no meio */
+    max-width: 400px; /* Ajusta a largura do texto conforme necessário */
+    margin: 0 20px;
+
+  }
+
+.texto-link3 h2 {
+    font-size: 40px;
+}
+
+.texto-link3 p {
+    font-size: 30px;
+    margin-top: 50px;
+}
+  
+.imagem-link3 img {
+    width: 300px; /* Defina a largura desejada para as imagens */
+    height: 800px; /* Mantém a proporção */
+    object-fit: cover; /* Ajusta a imagem ao espaço */
+    margin: 0 70px;
+  }
+
+.texto-Solucoes h2 {
+    margin-left: 20px;
+}
+
+.texto-Solucoes p {
+    margin-left: 20px;
+}
+
+.Solucoes-link4 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+  }
+
+.texto-Solucoes-link4 {
+    max-width: 50%;
+    font-size: x-large;
+}
+
+.texto-Solucoes-link4 p {
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
